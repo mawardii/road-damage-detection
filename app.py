@@ -19,7 +19,7 @@ st.set_page_config(page_title="RoadBot", layout="centered")
 # ---- LOAD CUSTOM YOLOv8 MODEL ----
 @st.cache_resource
 def load_model():
-    model = YOLO(r"C:\Users\Msi\Desktop\SEM6\FYP\yolo\prototype\best.pt")
+    model = YOLO("best.pt")
     return model
 
 model = load_model()

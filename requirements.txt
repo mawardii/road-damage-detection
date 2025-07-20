@@ -1,0 +1,10 @@
+Requirements
+
+streamlit
+Pillow
+numpy
+opencv-python
+ultralytics
+fpdf
+pandas
+imageio-ffmpeg

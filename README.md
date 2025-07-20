@@ -24,10 +24,10 @@ This is a web-based prototype built with Streamlit that uses a YOLOv8 deep learn
    git clone https://github.com/your-username/road-damage-detection.git
    cd road-damage-detection
 
-2. Install the dependencies
-    pip install -r requirements.txt
+2. Install dependencies using pip:
+   ```bash
+   pip install -r requirements.txt
 
-3. Run the Streamlit app
-    streamlit run app.py
-
-
+3. Run the app using Streamlit
+   ```bash
+   streamlit run app.py

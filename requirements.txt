@@ -1,5 +1,3 @@
-Requirements
-
 streamlit
 Pillow
 numpy
